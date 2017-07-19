@@ -17,4 +17,8 @@ module ApplicationHelper
     end
   end
   
+  def copyright_generator
+    OlearyViewTool::Renderer.copyright 'Connor O\'Leary', 'All rights reserved'
+  end
+  
 end
