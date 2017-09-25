@@ -21,4 +21,4 @@ jQuery(document).on 'turbolink:load', ->
       comments.data('blog_id')
       textarea.val('')
     e.preventDefault()
-    return False
+    return false
